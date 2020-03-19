@@ -1,6 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="MiniProject.Registration" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+</script>
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -158,9 +162,12 @@
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">
             <asp:Button ID="Button2" runat="server" Text="Sign up" OnClick="Button2_Click" />
+                        <br />
+                        <br />
                     </td>
                     <td class="auto-style6">
             <asp:Label ID="Label7" runat="server"></asp:Label>
+                        <br />
                     </td>
                 </tr>
             </table>
