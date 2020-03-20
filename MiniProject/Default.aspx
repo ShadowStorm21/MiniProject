@@ -8,7 +8,7 @@
 <head runat="server">
     <title></title>
 
-        <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    
 
 </head>
 <body>
@@ -26,7 +26,7 @@
             <br />
             <br />
             <br />
-            <ajaxToolkit:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="2">
+            <ajaxToolkit:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="5">
                 <ajaxToolkit:TabPanel runat="server" HeaderText="Home" ID="TabPanel1">
                     <ContentTemplate>
                         <div style=" border-width: inherit; border-color: #FFFFFF; border-style: inherit; background-image: url('pic/home-background.jpg'); background-repeat: no-repeat; background-color: #A42561; background-attachment: inherit;">
@@ -187,6 +187,7 @@
             <br />
             <br />
             <br />
+                <asp:Button ID="Button2" runat="server" Text="Button" />
             <br />
             <br />
             <br />
