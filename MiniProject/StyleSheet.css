@@ -6,50 +6,57 @@
 }
 
 
-MyTabStyle .ajax__tab_header {
-    font-family: "Helvetica Neue", Arial, Sans-Serif;
-    font-size: 14px;
+.ajax__tab_header {
+    background-color: cadetblue;
+    cursor: pointer;
     font-weight: bold;
+    color: #000;
     display: block;
+    font-family: verdana,tahoma,helvetica;
 }
 
-    MyTabStyle .ajax__tab_header .ajax__tab_outer {
-        border-color: #222;
-        color: #222;
-        padding-left: 10px;
-        margin-right: 3px;
-        border: solid 1px #d7d7d7;
+    .ajax__tab_header .ajax__tab_outer {
+        text-align:center;
+        
+        font-size: 25px;
+        width: 265px;
+        height: 46px;
+        color:black;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .ajax__tab_header .ajax__tab_inner {
+        border-color: #f00;
+        height: 46px;
+        
+        width: 265px;
     }
 
-    MyTabStyle .ajax__tab_header .ajax__tab_inner {
-        border-color: #666;
-        color: #666;
-        padding: 3px 10px 2px 0px;
-    }
-
-MyTabStyle .ajax__tab_hover .ajax__tab_outer {
-    background-color: #9c3;
+.ajax__tab_hover .ajax__tab_outer {
+   
 }
 
-MyTabStyle .ajax__tab_hover .ajax__tab_inner {
+.ajax__tab_hover .ajax__tab_inner {
     color: #fff;
+   
 }
 
-MyTabStyle .ajax__tab_active .ajax__tab_outer {
+.ajax__tab_active .ajax__tab_outer {
     border-bottom-color: #ffffff;
     background-color: #d7d7d7;
 }
 
-MyTabStyle .ajax__tab_active .ajax__tab_inner {
+.ajax__tab_active .ajax__tab_inner {
     color: #000;
-    border-color: #333;
+    background-color: cadetblue;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-color: black;
 }
 
-MyTabStyle .ajax__tab_body {
+.ajax__tab_body {
+    margin-top: 17px;
+
+ 
     font-family: verdana,tahoma,helvetica;
-    font-size: 10pt;
-    background-color: brown;
-    border-top-width: 0;
-    border: solid 1px #d7d7d7;
-    border-top-color: #ffffff;
 }
