@@ -20,7 +20,7 @@ namespace MiniProject
 
         protected void Session_Start(object sender, EventArgs e)
         {
-
+            Response.Redirect("Login.aspx");
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
